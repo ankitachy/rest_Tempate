@@ -10,7 +10,7 @@ public class WeatherService {
     //add your api key here
     private static final String API_KEY = "";
 
-    //add your api url here
+    //add the base api url here
     private static final String API_URL = "";
 
     private final RestTemplate restTemplate;
