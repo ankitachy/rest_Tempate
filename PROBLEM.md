@@ -9,8 +9,8 @@ Follow these steps to complete the assignment:
 ### Setup:
 - Create a new Spring Boot project or an existing one using the latest version of Spring Boot. This is the boilerplate with an existing project.
 - Add the necessary dependencies.
-- Sign up for free Weather API service (https://www.weatherapi.com/). Use this API key in your project
-- Use API explorer to get the API url format (https://www.weatherapi.com/api-explorer.aspx)
+- Sign up for free Weather API service (https://weatherstack.com/documentation). Use this API key in your project
+- Use API explorer to get the API url format (http://api.weatherstack.com/current)
 
 ### Custom Service:
 - Add your API key here.

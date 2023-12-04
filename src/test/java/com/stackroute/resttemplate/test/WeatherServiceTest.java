@@ -16,7 +16,7 @@ public class WeatherServiceTest {
         // Given
         RestTemplate restTemplate = new RestTemplate();
         WeatherService weatherService = new WeatherService(restTemplate);
-        String city = "London";
+        String city = "Bangalore";
 
         // When
         Weather weather = weatherService.getWeather(city);

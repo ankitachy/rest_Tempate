@@ -1,8 +1,26 @@
 package com.stackroute.resttemplate.model;
 
 public class Weather {
+   private Request request;
    private Location location;
    private Current current;
+
+   public Weather() {
+   }
+
+   public Weather(Request request, Location location, Current current) {
+      this.request = request;
+      this.location = location;
+      this.current = current;
+   }
+
+   public Request getRequest() {
+      return request;
+   }
+
+   public void setRequest(Request request) {
+      this.request = request;
+   }
 
    public Location getLocation() {
       return location;
@@ -18,13 +36,5 @@ public class Weather {
 
    public void setCurrent(Current current) {
       this.current = current;
-   }
-
-   public Weather(Location location, Current current) {
-      this.location = location;
-      this.current = current;
-   }
-
-   public Weather() {
    }
 }
